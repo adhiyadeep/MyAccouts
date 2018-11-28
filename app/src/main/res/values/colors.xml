@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#c9c8c0</color>
+    <color name="colorAccent">#ce7e3d</color>
+
+    <color name="white">#ffffff</color>
+
+    <color name="income">#25962d</color>
+    <color name="expence">#fec9151e</color>
+    <color name="reports">#fe141ea7</color>
+</resources>

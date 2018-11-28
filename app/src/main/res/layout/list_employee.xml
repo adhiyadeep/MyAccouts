@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15dp"
+    android:background="@drawable/rectangle_shape_with_color"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/emp_compamyname"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@color/expence"
+        android:textColor="@color/white"
+        android:textSize="@dimen/textsize" />
+
+    <ImageButton
+        android:id="@+id/img_emp_cancle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/md_transparent"
+        android:src="@drawable/ic_close_black_24dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/emp_compamyname"
+        android:layout_toEndOf="@+id/emp_compamyname" />
+
+    <ImageButton
+        android:id="@+id/img_emp_active"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/emp_compamyname"
+        android:background="@drawable/md_transparent"
+        android:src="@drawable/ic_done_black_24dp" />
+
+
+    <TextView
+        android:id="@+id/emp_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/emp_compamyname"
+        android:layout_marginTop="5dp"
+        android:textSize="@dimen/textsize" />
+
+    <TextView
+        android:layout_below="@id/emp_username"
+        android:id="@+id/emp_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="@dimen/textsize" />
+
+    <TextView
+        android:layout_below="@id/emp_name"
+        android:id="@+id/emp_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="@dimen/textsize" />
+
+
+</RelativeLayout>

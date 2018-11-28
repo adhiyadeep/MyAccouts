@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">My Accounts</string>
+    <string name="action_settings">Logout</string>
+    <string name="action_add_employee">Add Employee</string>
+    <string name="action_changePass">Change Password</string>
+    <string name="title_activity_login">My Accounts</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Log In</string>
+    <string name="action_sign_in_short">Log In</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <!--Default Names Of Dialogs-->
+    <string name="health_care">Health Care</string>
+    <string name="dialog_btn_yes">Yes</string>
+    <string name="dialog_btn_no">No</string>
+    <string name="dialog_btn_ok">Ok</string>
+    <string name="dialog_msg_internet_unavailable">Internet is unavailable</string>
+    <string name="title_activity_admin">Admin</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_sky_tech_hub">SkyTechHubActivity</string>
+    <string name="title_activity_income_expence_reports">Reports</string>
+    <string name="title_activity_income_report">IncomeReport</string>
+    <string name="title_activity_expense_report">ExpenseReport</string>
+    <string name="title_activity_admin_full_reports">Admin_full_reports</string>
+    <string name="title_activity_employee_list">EmployeeList</string>
+</resources>

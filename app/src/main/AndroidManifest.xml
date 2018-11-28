@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.skytechhub.myaccounts">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".app.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activities.SplashScreen"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.Login"
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name=".activities.Admin"
+            android:label="@string/title_activity_admin"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.Register"
+            android:label="@string/title_activity_register"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BasicActivity.SkyTechHubActivity"
+            android:label="@string/title_activity_sky_tech_hub"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.IncomeExpenceReports"
+            android:label="@string/title_activity_income_expence_reports"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.IncomeReport"
+            android:label="@string/title_activity_income_report"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.ExpenseReport"
+            android:label="@string/title_activity_expense_report"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activities.Forgot_password" />
+        <activity
+            android:name=".activities.EmployeeList"
+            android:label="@string/title_activity_employee_list"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

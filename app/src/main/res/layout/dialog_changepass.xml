@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout android:layout_width="368dp"
+    android:layout_height="551dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <EditText
+            android:inputType="textPassword"
+            android:id="@+id/changePassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="30dp"
+            android:hint="New Password" />
+
+        <EditText
+            android:inputType="textPassword"
+            android:id="@+id/confirmPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/changePassword"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="30dp"
+            android:hint="Confirm New Password" />
+
+        <Button
+            android:id="@+id/btn_changePassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/confirmPassword"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:text="Save"/>
+
+    </RelativeLayout>
